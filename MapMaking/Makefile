@@ -2,7 +2,7 @@
 CCC = mpic++ -g -O0
 CC = g++ -g -O0
 
-FITS = -I/group/cmb/litebird/usr/ysakurai/packages/cfitsio/include/ -L/group/cmb/litebird/usr/ysakurai/packages/cfitsio/lib/ -lcfitsio 
+FITS = -I/group/cmb/litebird/common_tools/custom_install/cfitsio-4.1.0/ -L/group/cmb/litebird/common_tools/custom_install/cfitsio-4.1.0/ -lcfitsio 
 FFTW = -I/sw/packages/fftw/fftw3/include/ -L/sw/packages/fftw/fftw3/lib/ -lfftw3
 
 mpi : Sanepic.cc
