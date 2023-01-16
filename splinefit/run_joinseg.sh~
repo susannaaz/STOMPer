@@ -1,8 +1,0 @@
-#!/bin/sh
-
-seed=1001
-
-#bsub -o bsub_joinseg/s${seed}.o 
-# need to run on machine
-python3 4_join_segments_downsampled.py $seed
-
