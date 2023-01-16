@@ -1,0 +1,9 @@
+#!/bin/sh
+
+seed=1001 #1001
+#for i in 0 #1000000 
+#do echo $i
+#bsub -o genphase.o 
+python3 1_generate_phase_drift_rndmwalk_segmented.py $seed
+#done
+
